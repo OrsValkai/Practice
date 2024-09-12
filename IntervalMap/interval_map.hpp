@@ -12,6 +12,8 @@ protected:
     V m_valBegin;
     std::map<K, V> m_map;
 
+    ~interval_map() = default;
+
 public:
     // constructor associates whole range of K with val
     interval_map(V const& val)
