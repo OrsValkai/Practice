@@ -1,8 +1,5 @@
-﻿// SDLFun.cpp : Defines the entry point for the application.
-//
-
-#include <SDL.h>
-#include "SDLFun.h"
+﻿#include <SDL.h>
+#include "SDL2Cmake.h"
 
 using namespace std;
 
